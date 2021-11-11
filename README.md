@@ -12,6 +12,7 @@ Group: **The Data Collectivists**
   * [Preprocessing](#preprocessing)
   * [Processing and Graphics](#processing-and-graphics)
 * [Built With](#built-with)
+* [Bibliography](#bibliography)
 
 <!-- ABOUT THE PROJECT -->
 ## About the Project
@@ -23,6 +24,10 @@ The peace and prosperity that we encountered in developped countries of the Nort
 While most people agree about the uncertainty of the next hundred years, we still have yet to agree on a solution. Some of which are more oriented towards a progressive society, while others prefer a more conservative approach. While multiple point of view rely on economic and environmental claims to base their theories on, some others are based on hate and fear of the difference, hate and fear of the change we might need to forge a more inclusive society. In order to better tackle the issues we face, we need to understand how some ideologies are gaining more traction inside the public debate, to observe how they might shape the minds of citizens.
 
 We are interested today about the rise of far-right extremism speech **between XXXX and XXXX**, observed through a dataset of quotes from the press, highlighting the evolution of opinions and ideas that shape the past, present, and the future of our society.
+
+### Research questions
+
+Is far-right extremism speech on the rise since 2016 ? How accurately can we identify a trend with the Quotebank dataset, when put in perspective with right-wing extremist terrorist attacks ? Can we highlight some news outlets that spread hate speech more than other, and if so, is it consistent over the years ? Is it also consistent with their political opinion ? 
 
 ### Data
 
@@ -36,30 +41,40 @@ Moreover, we will also need to define what is and how to discriminate hate speec
 
 Our pipeline is designed in 3 majors steps. We first [extract](#data-extraction-and-exploration) the corresponding datasets unprocessed for data exploration. A preliminary analysis of the data has led us to the [preprocessing](#preprocessing) rules we established to only keep relevent data for our study.
 The actual study is divided in multiple approaches. The first of which is a quantitative study of the number of occurences of certain expressions to better build a timeline, putting it in perspective with major political events that shaped the far-right speech spread (Donald Trump presidency, the Charlottesville terrorist attack...).
-For our second approach, we are interested in looking at a more qualitative approach, where we actually look at the content of each quote. Using Natural Language Processing (NLP) techniques, some related papers built datasets and models able to predict the hatefulness of a sentence **[[2]](#bibliography)**. This would allow us to get a set of keywords and a way to include context for the determination of the "hatefulness" of a quote. Our plan is to use some of the techniques described in the available litterature **ESSAYER DE FAIRE CA POUR LE RENDU SUR UN PETIT SAMPLE** to get a global trend related to po
+For our second approach, we are interested in looking at a more qualitative approach, where we actually look at the content of each quote. Using Natural Language Processing (NLP) techniques, some related papers built datasets and models able to predict the hatefulness of a sentence **[[2]](#bibliography)**. This would allow us to get a set of keywords and a way to include context for the determination of the "hatefulness" of a quote. **ESSAYER DE FAIRE CA POUR LE RENDU SUR UN PETIT SAMPLE** 
 
 ### Data Extraction and Exploration
 
 With an initial analysis, we identified several interesting values for the dataset, orienting our choices for the preprocessing step:
 
+* Number of quotes with no QID:
+* Number of quotes with multiple QIDs:
 
+![graph](img/graph.jpg
+_Figure 1: Distribution of the number of occurences per quotes in the 2016~2020 Quotebank dataset_
 
+-> on voit que les quotes avec 1 occurences servent a rien: threshold = XXXXXX
+
+![graph2](img/graph2.jpg
+_Figure 2: Distribution of the number of quotes per news outlets in the 2016~2020 Quotebank dataset_
+
+-> les news articles avec peu de trucs on les tej
 
 ### Preprocessing
 
 To clean the dataset, we 
 
-* Remove news outlets relaying less than 100 quotes that do not contribute to reflecting global trends.
-* Remove quotes with low numOccurences
-* Remove quotes with no QIDs
-* Remove quotes with several QIDs
+* Remove news outlets relaying less than XXXXX quotes that do not contribute to reflecting global trends.
+* Remove quotes with low numOccurences (les than XXXX)
+* Remove quotes with no QID
+* Remove quotes with multiple QIDs
 * Filter quotations that mentions keywords that we choose to tackle 
 
 
 ### Processing and Graphics
-[TO DO]
 
-<!-- BUILT WITH -->
+on fait quoi ici ?
+
 ## Built With
 
 * [Python 3.7](https://www.python.org)
