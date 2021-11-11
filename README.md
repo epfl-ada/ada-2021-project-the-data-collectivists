@@ -43,6 +43,7 @@ Processing** (NLP) models such as to tackle our problematic.
 * Remove news outlets relaying less than 100 quotes that do not contribute to reflecting global trends.
 * Remove quotes with low numOccurences
 * Remove quotes with no QIDs
+* Remove quotes with several QIDs
 * Filter quotations that mentions keywords that we choose to tackle 
 
 
