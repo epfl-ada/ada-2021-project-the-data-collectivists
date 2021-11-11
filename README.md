@@ -8,7 +8,7 @@ Group: **The Data Collectivists**
   * [Introduction](#Introduction)
   * [Data](#Data)
 * [Methods](#methods)
-  * [Data Extraction](#data-extraction)
+  * [Data Extraction and Exploration](#data-extraction-and-exploration)
   * [Preprocessing](#preprocessing)
   * [Processing and Graphics](#processing-and-graphics)
 * [Built With](#built-with)
@@ -26,22 +26,28 @@ We are interested today about the rise of far-right extremism speech **between X
 
 ### Data
 
-[Quotebank](https://zenodo.org/record/4277311#.YYqEUGXPxb8), an open corpus of 178 million quotations attributed to the speakers who uttered them, extracted from 162 million English news articles published between 2008 and 2020.
-[TO_DO]
+[Quotebank](https://zenodo.org/record/4277311#.YYqEUGXPxb8), an open corpus of 178 million quotations attributed to the speakers who uttered them, extracted from 162 million English news articles published between 2008 and 2020. To narrow down our study, we will focus on the time period between 2016 and 2020, an interval where major political events shaped the way far-right extremism is spreading in the media, while limiting the size of the dataset. 
+In order to build our timeline, we plan on using the Washington Post study of the CSIS database **[[1]](#bibliography)** that lists major right-wing extremist incidents that happened between 1994 and 2021. This will allow us to study the correlation between the rise of these attacks and the normalization of hate speech in the media.
+Moreover, we will also need to define what is and how to discriminate hate speech. This 
 
 
 <!-- METHODS -->
 ## Methods
 
-Our pipeline is designed in 3 majors steps. We first extract the **178 millions** quotations-speakers pairs from the [Quotebank](https://zenodo.org/record/4277311#.YYqEUGXPxb8) dataset. 
-Then, preprocessing the extracted data is a must if we consider performing a correct and non-biased (or less possible at least) analysis. Finally, it make use of **Natural Language 
-Processing** (NLP) models such as to tackle our problematic.
+Our pipeline is designed in 3 majors steps. We first [extract](#data-extraction-and-exploration) the corresponding datasets unprocessed for data exploration. A preliminary analysis of the data has led us to the [preprocessing](#preprocessing) rules we established to only keep relevent data for our study.
+The actual study is divided in multiple approaches. The first of which is a quantitative study of the number of occurences of certain expressions to better build a timeline, putting it in perspective with major political events that shaped the far-right speech spread (Donald Trump presidency, the Charlottesville terrorist attack...).
+For our second approach, we are interested in looking at a more qualitative approach, where we actually look at the content of each quote. Using Natural Language Processing (NLP) techniques, some related papers built datasets and models able to predict the hatefulness of a sentence **[[2]](#bibliography)**. This would allow us to get a set of keywords and a way to include context for the determination of the "hatefulness" of a quote. Our plan is to use some of the techniques described in the available litterature **ESSAYER DE FAIRE CA POUR LE RENDU SUR UN PETIT SAMPLE** to get a global trend related to po
 
-### Data Extraction
+### Data Extraction and Exploration
 
-[TO DO]
+With an initial analysis, we identified several interesting values for the dataset, orienting our choices for the preprocessing step:
+
+
+
 
 ### Preprocessing
+
+To clean the dataset, we 
 
 * Remove news outlets relaying less than 100 quotes that do not contribute to reflecting global trends.
 * Remove quotes with low numOccurences
@@ -60,3 +66,8 @@ Processing** (NLP) models such as to tackle our problematic.
 * [Quotebank](https://zenodo.org/record/4277311#.YYqEUGXPxb8)
 * [Pandas](https://pandas.pydata.org)
 * [Seaborn](https://seaborn.pydata.org)
+
+## Bibliography
+
+1. [Washington Post article](https://www.washingtonpost.com/investigations/interactive/2021/domestic-terrorism-data/) [Github repository](https://github.com/wpinvestigative/csis_domestic_terrorism)
+2. Qian, J., Bethke, A., Liu, Y., Belding, E., & Wang, W. Y. (2019). A benchmark dataset for learning to intervene in online hate speech.
