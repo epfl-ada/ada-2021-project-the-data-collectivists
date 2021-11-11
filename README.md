@@ -5,8 +5,8 @@ Group: **The Data Collectivists**
 ## Table of Contents
 
 * [About the Project](#about-the-project)
+  * [Introduction](#Introduction)
   * [Data](#Data)
-  * [General Idea](#general-idea)
 * [Methods](#methods)
   * [Data Extraction](#data-extraction)
   * [Preprocessing](#preprocessing)
@@ -15,6 +15,8 @@ Group: **The Data Collectivists**
 
 <!-- ABOUT THE PROJECT -->
 ## About the Project
+
+### Introduction
 
 The peace and prosperity that we encountered in developped countries of the North in the last century has led many nations in a path of constant technological progress and economic growth. This prosperity however might be threatened by newfound global issues that not only jeopardize the economy, but also the future of humanity. The recent COVID-19 pandemic has shown once more how the current socio-economic system ubiquitous in most occidental democracies has potentially fatal flaws that we need to address before it is crushed under its own weight.
 
@@ -27,9 +29,6 @@ We are interested today about the rise of far-right extremism speech **between X
 [Quotebank](https://zenodo.org/record/4277311#.YYqEUGXPxb8), an open corpus of 178 million quotations attributed to the speakers who uttered them, extracted from 162 million English news articles published between 2008 and 2020.
 [TO_DO]
 
-### General Idea
-
-[TO_DO]
 
 <!-- METHODS -->
 ## Methods
