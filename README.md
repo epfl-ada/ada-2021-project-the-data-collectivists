@@ -11,6 +11,7 @@ Group: **The Data Collectivists**
   * [Data Extraction and Exploration](#data-extraction-and-exploration)
   * [Preprocessing](#preprocessing)
   * [Processing and Graphics](#processing-and-graphics)
+* [Timeline](#timeline)
 * [Built With](#built-with)
 * [Bibliography](#bibliography)
 
@@ -65,15 +66,28 @@ _Figure 2: Distribution of the number of quotes per news outlets in the 2016~202
 To clean the dataset, we 
 
 * Remove news outlets relaying less than XXXXX quotes that do not contribute to reflecting global trends.
-* Remove quotes with low numOccurences (les than XXXX)
-* Remove quotes with no QID
-* Remove quotes with multiple QIDs
+* Remove quotes with low numOccurences (less than **10**)
+* Filter quotes with only **1** QIDs
 * Filter quotations that mentions keywords that we choose to tackle 
 
 
 ### Processing and Graphics
 
-on fait quoi ici ?
+**[TO BE DONE - Milestone P3]**
+
+<!-- TIMELINE -->
+## Timeline
+
+We propose the following timeline, on which we will divide the tasks equally.
+
+- [x] **Step 1:** Find a research question exploiting [Quotebank](https://zenodo.org/record/4277311#.YYqEUGXPxb8) data (Milestone P1), 
+- [x] **Step 2:** Extract data and implementation of the preprocessing pipeline (Milestone P2), 
+- [ ] **Step 3:** Implement a Natural Language Processing (NLP) algorthm to interpret data,
+   - *end of november*
+- [ ] **Step 4:** Dimension reduction for easier visualization, 
+   - *first week of december*
+- [ ] **Step 5:** Visualization methods. 
+   - *second week of december*
 
 ## Built With
 
