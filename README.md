@@ -11,7 +11,6 @@ Group: **The Data Collectivists**
   * [Data Extraction and Exploration](#data-extraction-and-exploration)
   * [Preprocessing](#preprocessing)
   * [Processing and Graphics](#processing-and-graphics)
-* [Timeline](#timeline)
 * [Built With](#built-with)
 * [Bibliography](#bibliography)
 
@@ -42,7 +41,7 @@ Moreover, we will also need to define what is and how to discriminate hate speec
 
 Our pipeline is designed in 3 majors steps. We first [extract](#data-extraction-and-exploration) the corresponding datasets unprocessed for data exploration. A preliminary analysis of the data has led us to the [preprocessing](#preprocessing) rules we established to only keep relevent data for our study.
 The actual study is divided in multiple approaches. The first of which is a quantitative study of the number of occurences of certain expressions to better build a timeline, putting it in perspective with major political events that shaped the far-right speech spread (Donald Trump presidency, the Charlottesville terrorist attack...).
-For our second approach, we are interested in looking at a more qualitative approach, where we actually look at the content of each quote. Using Natural Language Processing (NLP) techniques, some related papers built datasets and models able to predict the hatefulness of a sentence **[[2]](#bibliography)**. This would allow us to get a set of keywords and a way to include context for the determination of the "hatefulness" of a quote. **ESSAYER DE FAIRE CA POUR LE RENDU SUR UN PETIT SAMPLE** 
+For our second approach, we are interested in looking at a more qualitative approach, where we actually look at the content of each quote. Using Natural Language Processing (NLP) techniques, some related papers built datasets and models able to predict the hatefulness of a sentence **[[2]](#bibliography)**. This would allow us to get a set of keywords and a way to include context for the determination of the "hatefulness" of a quote. 
 
 ### Data Extraction and Exploration
 
@@ -66,28 +65,16 @@ _Figure 2: Distribution of the number of quotes per news outlets in the 2016~202
 To clean the dataset, we 
 
 * Remove news outlets relaying less than XXXXX quotes that do not contribute to reflecting global trends.
-* Remove quotes with low numOccurences (less than **10**)
-* Filter quotes with only **1** QIDs
+* Remove quotes with low numOccurences (les than XXXX)
+* Remove quotes with no QID
+* Remove quotes with multiple QIDs
 * Filter quotations that mentions keywords that we choose to tackle 
+* Remove "phase" feature of the data frame
 
 
 ### Processing and Graphics
 
-**[TO BE DONE - Milestone P3]**
-
-<!-- TIMELINE -->
-## Timeline
-
-We propose the following timeline, on which we will divide the tasks equally.
-
-- [x] **Step 1:** Find a research question exploiting [Quotebank](https://zenodo.org/record/4277311#.YYqEUGXPxb8) data (Milestone P1), 
-- [x] **Step 2:** Extract data and implementation of the preprocessing pipeline (Milestone P2), 
-- [ ] **Step 3:** Implement a Natural Language Processing (NLP) algorthm to interpret data,
-   - *end of november*
-- [ ] **Step 4:** Dimension reduction for easier visualization, 
-   - *first week of december*
-- [ ] **Step 5:** Visualization methods. 
-   - *second week of december*
+on fait quoi ici ?
 
 ## Built With
 
