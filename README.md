@@ -11,6 +11,7 @@ Group: **The Data Collectivists**
   * [Data Extraction and Exploration](#data-extraction-and-exploration)
   * [Preprocessing](#preprocessing)
   * [Processing and Graphics](#processing-and-graphics)
+* [Timeline](#timeline)
 * [Built With](#built-with)
 * [Bibliography](#bibliography)
 
@@ -23,7 +24,7 @@ The peace and prosperity that we encountered in developped countries of the Nort
 
 While most people agree about the uncertainty of the next hundred years, we still have yet to agree on a solution. Some of which are more oriented towards a progressive society, while others prefer a more conservative approach. While multiple point of view rely on economic and environmental claims to base their theories on, some others are based on hate and fear of the difference, hate and fear of the change we might need to forge a more inclusive society. In order to better tackle the issues we face, we need to understand how some ideologies are gaining more traction inside the public debate, to observe how they might shape the minds of citizens.
 
-We are interested today about the rise of far-right extremism speech **between XXXX and XXXX**, observed through a dataset of quotes from the press, highlighting the evolution of opinions and ideas that shape the past, present, and the future of our society.
+We are interested today about the rise of far-right extremism speech **between 2016 and 2020**, observed through a dataset of quotes from the press, highlighting the evolution of opinions and ideas that shape the past, present, and the future of our society.
 
 ### Research questions
 
@@ -50,12 +51,12 @@ With an initial analysis, we identified several interesting values for the datas
 * Number of quotes with no QID:
 * Number of quotes with multiple QIDs:
 
-![graph](img/graph.jpg
+![graph](img/graph.jpg) **[TO DO]**
 _Figure 1: Distribution of the number of occurences per quotes in the 2016~2020 Quotebank dataset_
 
 -> on voit que les quotes avec 1 occurences servent a rien: threshold = XXXXXX
 
-![graph2](img/graph2.jpg
+![graph2](img/graph2.jpg) **[TO DO]**
 _Figure 2: Distribution of the number of quotes per news outlets in the 2016~2020 Quotebank dataset_
 
 -> les news articles avec peu de trucs on les tej
@@ -65,16 +66,31 @@ _Figure 2: Distribution of the number of quotes per news outlets in the 2016~202
 To clean the dataset, we 
 
 * Remove news outlets relaying less than XXXXX quotes that do not contribute to reflecting global trends.
-* Remove quotes with low numOccurences (les than XXXX)
+* Remove quotes with low numOccurences (less than 10)
 * Remove quotes with no QID
 * Remove quotes with multiple QIDs
 * Filter quotations that mentions keywords that we choose to tackle 
 * Remove "phase" feature of the data frame
 
+For now, we present primary analysis on the year 2020, such as to assess our choices regarding preprocessing methods.
 
 ### Processing and Graphics
 
-on fait quoi ici ?
+**[TO BE DONE - Milestone P3]**
+
+<!-- TIMELINE -->
+## Timeline
+
+We propose the following timeline, on which we will divide the tasks equally.
+
+- [x] **Step 1:** Find a research question exploiting [Quotebank](https://zenodo.org/record/4277311#.YYqEUGXPxb8) data (Milestone P1), 
+- [x] **Step 2:** Extract data and implementation of the preprocessing pipeline (Milestone P2), 
+- [ ] **Step 3:** Implement a Natural Language Processing (NLP) algorthm to interpret data,
+   - *end of november*
+- [ ] **Step 4:** Dimension reduction for easier visualization, 
+   - *first week of december*
+- [ ] **Step 5:** Visualization methods. 
+   - *second week of december*
 
 ## Built With
 
