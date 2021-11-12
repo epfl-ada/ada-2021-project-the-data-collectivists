@@ -52,7 +52,9 @@ Another approach would be to check if our model can build a profile on a news ou
 
 With an initial analysis, we identified several interesting values for the dataset, orienting our choices for the preprocessing step.
 
-![graph](img/graph.png) 
+![graph](img/graph.png) \\
+
+
 _Figure 1: Distribution of the number of occurences per quotes in a sample of the 2020 Quotebank dataset_
 
 We studied the distribution of the number of occurences per quotes in the dataset, and we can see that most of the quotes are cited once. Our analysis is focused on the spread of hate ideology among the population, thus highly cited in the media, which show a trend in the public debate. A quote with only one occurence cannot be considered as crucial in the public debate. Moreover, we observed that some quotes with 1 occurence can be attributed to errors.
