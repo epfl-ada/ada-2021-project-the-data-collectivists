@@ -1,5 +1,6 @@
-# ADA - Milestone P2
+# ADA - Project
 Group: **The Data Collectivists**
+Members : Nathan Girard, Clémentine Lévy-Fidel, Camil Hamdane, Nathan Fiorellino
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
@@ -80,7 +81,7 @@ We propose the following timeline, on which we will divide the tasks equally.
 
 - [x] **Step 1:** Find a research question exploiting [Quotebank](https://zenodo.org/record/4277311#.YYqEUGXPxb8) data (Milestone P1), 
 - [x] **Step 2:** Extract data and implementation of the preprocessing pipeline (Milestone P2), 
-- [ ] **Step 3:** Finish the preprocessing steps and apply it to the entire selected dataset,
+- [x] **Step 3:** Finish the preprocessing steps and apply it to the entire selected dataset,
    - *17th of november*
 - [ ] **Step 4:** Study the occurences of certain keywords with the Hatebase dataset (Quantitative approach), 
    - *24th of november*
