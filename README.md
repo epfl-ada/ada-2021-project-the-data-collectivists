@@ -83,13 +83,13 @@ We propose the following timeline, on which we will divide the tasks equally.
 - [x] **Step 2:** Extract data and implementation of the preprocessing pipeline (Milestone P2), 
 - [x] **Step 3:** Finish the preprocessing steps and apply it to the entire selected dataset,
    - *17th of november*
-- [ ] **Step 4:** Study the occurences of certain keywords with the Hatebase dataset (Quantitative approach), 
+- [X] **Step 4:** Study the occurences of certain keywords with the Hatebase dataset (Quantitative approach), 
    - *24th of november*
-- [ ] **Step 5:** Working model for the assessement of the hatefullness of a quotation. 
+- [X] **Step 5:** Working model for the assessement of the hatefullness of a quotation. 
    - *First week of december*
 - [ ] **Step 6:** Timeline of hate speech evolution with major right-wing extremism related events. 
-   - *First week of december*
-- [ ] **Step 6:** Graphics and visualization refining and final report. 
+   - *Second week of december*
+- [ ] **Step 7:** Graphics and visualization refining and final report. 
    - *second week of december*
 
 ## Built With
